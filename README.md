@@ -3,7 +3,7 @@
 ## Motivation
 
 json.hpp is a lightweight (<500 LOC) C++17 single file header library
-for encoding and decoding JSON. JSON entities are deserialized into
+for encoding and decoding JSON. Entities are deserialized into
 `std::vector`, `std::map`, `std::string`, `double`, and `bool`.
 
 While there are many JSON parsing libraries for C++ they often have
@@ -11,8 +11,8 @@ significant dependencies or unnecessary complexity.  json.hpp intends
 to be extremely small, easy to integrate into existing C++ code, easy
 to understand, and robust.
 
-This library is liberally licensed under the [Zero Clause
-BSD](https://en.wikipedia.org/wiki/Public-domain-equivalent_license),
+This library is liberally licensed under the [Zero Clause BSD
+License](https://en.wikipedia.org/wiki/Public-domain-equivalent_license),
 a public domain equivalent license.
 
 ## Installation
@@ -43,7 +43,7 @@ falls out of scope.
 ## Accessing JSON Values
 
 The `json::Value` type is used to represent all JSON values as
-standard C++ types used internally. The `parse()` function returns a
+standard C++ types internally. The `parse()` function returns a
 `Value` object which can be used as described below. JSON Arrays and
 JSON Objects are also collections of `Value` objects as well.
 

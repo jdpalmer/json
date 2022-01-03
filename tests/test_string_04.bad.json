@@ -1,0 +1,6 @@
+[
+	"legal surrogate \uD800\uDC00!",
+	"invalid escape \W",
+	2,
+	false
+]

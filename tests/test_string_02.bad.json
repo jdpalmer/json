@@ -1,0 +1,5 @@
+[
+	"bad upper surrogate \uDC00\uDC00",
+	2,
+	false
+]

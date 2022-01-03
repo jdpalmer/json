@@ -1,0 +1,5 @@
+[
+	"bad lower surrogate \uD800\uDBFF",
+	2,
+	false
+]

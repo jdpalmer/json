@@ -14,7 +14,7 @@
 // NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
 // CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 //
-// See also: https://github.com/jdpalmer/json
+// Website: https://github.com/jdpalmer/json
 
 #pragma once
 #ifndef JSON_HPP

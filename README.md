@@ -37,8 +37,8 @@ a `ParseError` exception is thrown:
     }
 
 Note that `value` in the above example is returned as a
-`std::unique_ptr` and will be cleaned up automatically when `value`
-falls out of scope.
+`std::unique_ptr` and will be cleaned up automatically when the
+variable falls out of scope.
 
 ## Accessing JSON Values
 
@@ -103,7 +103,7 @@ provided.
 ## Encoding JSON
 
 While json.hpp can encode json from `Value` objects, this is not
-intended to be a significant use case. It will be typically be more
+intended to be a significant use case. It will typically be more
 code efficient to provide your own object serialization.  That being
 said, `Value` objects are recursively serialized using the standard
 stream output operator:

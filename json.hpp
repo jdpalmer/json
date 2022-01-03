@@ -1,4 +1,4 @@
-// Copyright (C) 2021 by James Palmer
+// Copyright (C) 2022 by James Palmer
 //
 // Zero Clause BSD License
 //
